@@ -1,0 +1,20 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "adminlocal",
+  "password": "J6t2hybt26@",
+  "database": "clientes",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "src/entities/*.ts"
+  ],
+  "migrations": [
+    "src/migrations/*.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migrations"
+  }
+}
